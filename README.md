@@ -63,7 +63,7 @@ In v1.1 there are 10 caves:
 ## Camps
 
 ```
-Teleport Self TilePosition 1400, 6225  Stavros the Caber @ Carvers Logging Camp
+Teleport Self TilePosition 1400, 6225  Stavros the Carver @ Carvers Logging Camp
 ```
 
 ## Fishing
@@ -79,6 +79,13 @@ TeleportToChunk 11,14  Haunted Iron Mine
 TeleportToChunk 10,19  Transcedium Mine
 ```
 
+## Plots
+
+Recommended starter base stairs:
+
+```
+Teleport Self TilePosition 4600, 3270
+```
 
 ## Secret Locations
 
@@ -86,15 +93,22 @@ TeleportToChunk 10,19  Transcedium Mine
 TeleportToChunk  7, 2  Dev Island #1
 ```
 
-## Starting Cave / Tutorial
+## Starting Crypt & Graveyard Tutorial
+
+There are two graveyards! The _actual_ one and the _unused_ one.
 
 ```
-Teleport Self TilePosition 1183, 61     Tutorial cave / coffin
-Teleport Self TilePosition 1180, 90     Top of stairs down in tutorial cave
-Teleport Self TilePosition 4668, 2358   Exit starter/tutorial cave
+Teleport Self TilePosition 1183, 61     Crypt cave / new game coffin
+Teleport Self TilePosition 1180, 90     Top of broken stairs in Crypt cave
+Teleport Self TilePosition 4670, 420    In Graveyard, above rock after exit Crypt cave
+TeleportToChunk 14, 1                   In Graveyard
+Teleport Self TilePosition 1180, 319    North most point on top of rock skirt in Crypt
+Teleport Self TilePosition 4640, 670    Actual Graveyard gates ready to exit
+Teleport Self TilePosition 3680, 670    Unused Graveyard (used to generate mini-map?)
+Teleport Self TilePosition 4668, 2358   Enter Farbane after exiting Graveyard
 
-TeleportToChunk 11,2                  Unused Dev/Test Tutorial Cemetary 
-Teleport Self TilePosition 3680, 880  Unused Dev/Test Tutorial Cemetary 
+TeleportToChunk 11,2                  Top of unused Graveyard (chunk position)
+Teleport Self TilePosition 3680, 880  Top of unused Graveyard (tile position for chunk 11,2)
 ```
 
 ## Tiles-to-Chunks
